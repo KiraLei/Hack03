@@ -8,13 +8,13 @@
 <body>
     <form action="#">
         <label>Nombre:</label>
-        <input type="text" name="name" pattern="[A-Za-z]">
+        <input type="text" name="name" pattern="[A-Za-z]" required>
         <br>
         <label>Apellido:</label>
-        <input type="text" name="last_name" pattern="[A-Za-z]">
+        <input type="text" name="last_name" pattern="[A-Za-z]" required>
         <br>
         <label>Edad:</label>
-        <input type="text" pattern="[0-9]{18,80}">
+        <input type="text" pattern="[0-9]{18,80}" required>
         <br>
         <label for="">Sexo:</label>
         <label>
@@ -27,10 +27,10 @@
         </label>
         <br>
         <label>DNI:</label>
-        <input type="text"  minlength="8"  pattern="[A-Za-z0-9]">
+        <input type="text"  minlength="8"  pattern="[A-Za-z0-9]" required>
         <br>
         <label>Email</label>
-        <input type="email">
+        <input type="email" required>
         <br>
         <button>Enviar</button>
         
